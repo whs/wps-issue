@@ -12,10 +12,5 @@ module.exports = {
 	},
 	optimization: {
 		runtimeChunk: 'single',
-		splitChunks: {
-			name: false,
-			chunks: 'all',
-			maxInitialRequests: 5,
-		},
 	},
 };
